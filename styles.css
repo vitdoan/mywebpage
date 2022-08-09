@@ -100,8 +100,8 @@ nav{
 .project{
     border-radius: 50px;
     background-color: rgb(245, 245, 245);
-    width: 305px;
-    height: 550px;
+    width: 17rem;
+    height: 30rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .project img{
@@ -127,7 +127,7 @@ nav{
 .cardDescription{
     padding: 25px;
 }
-.cardDescription h2{
+.cardDescription h3{
     color: black;
     margin: 0;
     text-align: center;
@@ -135,6 +135,9 @@ nav{
 .cardDescription div p{
     text-align: justify;
   text-justify: inter-word;
+}
+.info{
+    overflow: scroll;
 }
 .cardDescription div a{
     color: gray;
