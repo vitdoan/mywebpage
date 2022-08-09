@@ -12,7 +12,6 @@ body{
 }
 h1{
     margin: 0;
-    font-size: 3.5rem;
 }
 nav{
     width: 100%;
@@ -29,7 +28,7 @@ nav{
 .navHeader li a{
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
     border-radius: 30px;
     border: none;
@@ -63,11 +62,6 @@ nav{
     background-image: url('/images/sunset.jpeg');
     background-size: cover;
 }
-#section1 a {
-    text-decoration: none;
-    color: black;
-    font-size: 4rem;
-}
 #section2{
     background-image: url('/images/kites.jpg');
     background-size: cover;
@@ -76,7 +70,7 @@ nav{
     flex-direction: column;
 }
 #section2 p{
-    font-size: 25px;
+
     margin-bottom: 0;
     width: 550px;
     color: black;
@@ -180,7 +174,7 @@ nav{
     color: white;
     border-right: .15em solid rgb(255, 255, 255);
     font-family: "Courier";
-    font-size: 30px;
+
     white-space: nowrap;
     overflow: hidden;
   }
