@@ -76,7 +76,7 @@ nav{
     flex-direction: column;
 }
 #section2 p{
-    font-size: 1.7rem;
+    font-size: 25px;
     margin-bottom: 0;
     width: 550px;
     color: black;
@@ -93,8 +93,8 @@ nav{
 }
 .cards{
     padding: 50px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     column-gap: 30px;
 }
 .project{
