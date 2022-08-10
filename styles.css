@@ -3,6 +3,10 @@ html{
 }
 * { color:white;
     scroll-behavior: smooth;}
+
+h2{
+  font-size: 2rem;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -70,7 +74,6 @@ nav{
     flex-direction: column;
 }
 #section2 p{
-
     margin-bottom: 0;
     width: 450px;
     color: black;
@@ -84,6 +87,7 @@ nav{
 
 #section3 h2{
     margin-top: 15%;
+    padding-top: 20px;
 }
 .cards{
     padding: 20px 0;
