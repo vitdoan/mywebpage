@@ -86,7 +86,7 @@ nav{
     margin-top: 15%;
 }
 .cards{
-    padding: 20px 0;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
