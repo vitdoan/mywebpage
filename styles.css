@@ -3,10 +3,6 @@ html{
 }
 * { color:white;
     scroll-behavior: smooth;}
-
-h2{
-  font-size: 2rem;
-}
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -14,7 +10,7 @@ body{
     width: 100vw;
     height: 100vh;
 }
-h2{
+h1{
     margin: 0;
 }
 nav{
@@ -74,6 +70,7 @@ nav{
     flex-direction: column;
 }
 #section2 p{
+
     margin-bottom: 0;
     width: 450px;
     color: black;
@@ -85,9 +82,8 @@ nav{
     flex-direction: column;
 }
 
-#section3 h2{
+#section3 h1{
     margin-top: 15%;
-    padding-top: 20px;
 }
 .cards{
     padding: 20px 0;
@@ -132,7 +128,6 @@ nav{
 }
 .cardDescription h3
 { 
-  font-size: 1em;
     color: black;
     margin: 0;
     text-align: center;
@@ -158,10 +153,10 @@ nav{
 #section4{
     flex-direction: column;
 }
-#section4 h2,p{
+#section4 h1,p{
     color: black;
 }
-#section4 h2{
+#section4 h1{
     margin-bottom: 30px;
 }
 .social img {
