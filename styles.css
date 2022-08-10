@@ -37,12 +37,13 @@ nav{
 }
 
 .navHeader li{
+    color: rgb(49, 49, 49);
     padding: 20px;
 }
 .navHeader li :hover{
     background-color: rgb(226, 226, 226);
-    color: rgb(85, 85, 85);
-    transition: 0.4s;
+    color: rgb(0, 0, 0);
+    transition: 0.45s;
 }
 .container{
     width: 100%;
@@ -78,7 +79,7 @@ nav{
     color: black;
 }
 #section3{
-    background-image: url('/images/note.jpg');
+    background-image: url('/images/pexel.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -104,6 +105,10 @@ nav{
     width: 17%;
     height: 85%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.project:hover{
+  transform: scale(1.04);
 }
 .project img{
     border-top-left-radius: 50px;
@@ -128,7 +133,7 @@ nav{
 .cardDescription{
     padding: 18px;
 }
-#proName
+.proName
 { 
     color: black;
     margin: 0;
@@ -143,7 +148,8 @@ nav{
 .cardDescription div a{
     color: gray;
 }
-#git{
+.github{
+    font-size: x-small;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -173,25 +179,25 @@ nav{
 .css-typing p {
     color: white;
     border-right: .15em solid rgb(255, 255, 255);
-    font-family: "Courier";
-
+    /* font-family: "Courier", sans-serif; */
+    font-family: 'Maven Pro', sans-serif;
     white-space: nowrap;
     overflow: hidden;
   }
   .css-typing p:nth-child(1) {
-    width: 11.5em;
-    -webkit-animation: type 2s steps(40, end), blink .5s;
-    animation: type 2s steps(40, end), blink .5s;
+    width: 11em;
+    -webkit-animation: type 2s steps(20, end), blink .5s;
+    animation: type 2s steps(20, end), blink .5s;
     /* -webkit-animation: type 2s steps(40, end); */
-    animation: type 2s steps(40, end);
+    animation: type 2s steps(20, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(2) {
-    width: 5em;
+    width: 4em;
     opacity: 0;
-    -webkit-animation: type2 1s steps(20, end), blink .5s;
-    animation: type2 1s steps(20, end), blink .5s;
+    -webkit-animation: type2 1s steps(15, end), blink .5s;
+    animation: type2 1s steps(15, end), blink .5s;
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     -webkit-animation-fill-mode: forwards;
@@ -199,14 +205,14 @@ nav{
   }
 
   .css-typing p:nth-child(3) {
-    width: 15em;
+    width: 13em;
     opacity: 0;
     /* -webkit-animation: type3 5s steps(40, end);
     animation: type3 5s steps(40, end); */
-    -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type2 3s steps(40, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
+    -webkit-animation: type3 3s steps(22, end), blink .5s step-end infinite alternate;
+    animation: type2 3s steps(22, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
