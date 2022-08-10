@@ -126,7 +126,7 @@ nav{
 .cardDescription{
     padding: 10px;
 }
-.cardDescription h3
+.cardDescription h4
 { 
     color: black;
     margin: 0;
@@ -142,7 +142,8 @@ nav{
 .cardDescription div a{
     color: gray;
 }
-#github{
+#git
+ub{
     overflow: hidden;
     white-space: nowrap;
 }
