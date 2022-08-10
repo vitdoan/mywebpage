@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
-* { 
+* { overflow: hidden;
     scroll-behavior: smooth;}
 body{
     font-family: 'Montserrat', sans-serif;
@@ -11,6 +11,7 @@ body{
     height: 100vh;
 }
 h1,h2{
+    font-size: xx-large;
     margin: 0;
     color: white;
 }
@@ -134,8 +135,7 @@ nav{
     text-align: center;
 }
 .cardDescription div p{
-    text-align: justify;
-  text-justify: inter-word;
+  font-size: small;
 }
 .info{
     overflow: scroll;
@@ -143,8 +143,7 @@ nav{
 .cardDescription div a{
     color: gray;
 }
-#git
-ub{
+#git{
     overflow: hidden;
     white-space: nowrap;
 }
