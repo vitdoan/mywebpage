@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
-* { color:white;
+* { 
     scroll-behavior: smooth;}
 body{
     font-family: 'Montserrat', sans-serif;
@@ -10,8 +10,9 @@ body{
     width: 100vw;
     height: 100vh;
 }
-h1{
+h1,h2{
     margin: 0;
+    color: white;
 }
 nav{
     width: 100%;
